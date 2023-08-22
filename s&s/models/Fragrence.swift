@@ -12,9 +12,9 @@ struct Fragrence: Identifiable
 {
     var id = UUID().uuidString
     let brand: String
-    let name: String
+    let scentName: String
     let color: String
     let price: Double
     let size: Int
-    let hasBeenTested: Bool
+    let hasBeenTested: Bool = false
 }

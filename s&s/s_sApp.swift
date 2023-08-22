@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct s_sApp: App {
+    
+    @StateObject var vm: FragrenceViewModel = FragrenceViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+            }
+            .environmentObject(vm)
         }
     }
 }
