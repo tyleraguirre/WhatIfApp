@@ -13,6 +13,7 @@
 		628A16C82937E93700B8E89F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628A16C72937E93700B8E89F /* ContentView.swift */; };
 		628A16CA2937E93900B8E89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628A16C92937E93900B8E89F /* Assets.xcassets */; };
 		628A16CD2937E93900B8E89F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628A16CC2937E93900B8E89F /* Preview Assets.xcassets */; };
+		62E495FA2AAFCA2F003F3D36 /* FragrenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E495F92AAFCA2F003F3D36 /* FragrenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		628A16C72937E93700B8E89F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		628A16C92937E93900B8E89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		628A16CC2937E93900B8E89F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62E495F92AAFCA2F003F3D36 /* FragrenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragrenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		628A16D42937E95900B8E89F /* views */ = {
 			isa = PBXGroup;
 			children = (
+				62E495F92AAFCA2F003F3D36 /* FragrenceView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E495FA2AAFCA2F003F3D36 /* FragrenceView.swift in Sources */,
 				6288D61A2A4BAEF9005509DE /* FragrenceViewModel.swift in Sources */,
 				628A16C82937E93700B8E89F /* ContentView.swift in Sources */,
 				628A16C62937E93700B8E89F /* s_sApp.swift in Sources */,
